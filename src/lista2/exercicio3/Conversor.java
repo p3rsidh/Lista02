@@ -12,6 +12,6 @@ public class Conversor {
         Fh = input.nextFloat();
         double Cl =((Fh - 32)/(1.8));
         System.out.println("Convertendo...");
-        System.out.printf( +Fh +" Fahrenheit  equivalem a " +Cl +" Celsius");
+        System.out.printf( Fh +" Fahrenheit  equivalem a " +Cl +" Celsius");
     }
 }
