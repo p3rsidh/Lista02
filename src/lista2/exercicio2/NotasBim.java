@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class NotasBim {
     public static void main(String[] args) {
-        float n1, n2, n3, n4;
+        float n1, n2, n3, n4, mediaa;
         Scanner input = new Scanner(System.in);
 
         System.out.println("Digite o nome do aluno");
@@ -20,7 +20,15 @@ public class NotasBim {
         System.out.println("A primeira nota: " +n1);
         System.out.println("A segunda nota: " +n2);
         System.out.println("A terceira nota:" +n3);
+        n4 = input.nextFloat();
+        System.out.println("A primeira nota: " +n1);
+        System.out.println("A segunda nota: " +n2);
+        System.out.println("A terceira nota:" +n3);
+        System.out.println("A quarta nota:" +n4);
 
+        mediaa = (n1 + n2 + n3 + n4) / 4;
+
+        System.out.println("A media aritimetica das notas e: " +mediaa);
 
     }
 }
