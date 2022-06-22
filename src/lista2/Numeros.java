@@ -11,6 +11,6 @@ public class Numeros {
         System.out.println("Digite o numero que deseja");
         n = input.nextInt();
         System.out.println("O numero " +n +" tem como antecessor " +(n-1) +" e como sucessor " +(n+1));
-
+        System.out.println(n-1 +" " +n +" "+(n+1));
     }
 }
