@@ -1,7 +1,7 @@
 package src.lista2.exercicio1;
 
-public class alôMundo {
+public class AloMundo {
     public static void main(String[] args) {
-        System.out.print("Alô mundo");
+        System.out.print("Alo mundo");
     }
 }
