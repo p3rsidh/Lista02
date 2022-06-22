@@ -20,6 +20,7 @@ public class NotasBim {
         System.out.println("A primeira nota: " +n1);
         System.out.println("A segunda nota: " +n2);
         System.out.println("A terceira nota:" +n3);
+        System.out.println("Digite a quarta nota do aluno");
         n4 = input.nextFloat();
         System.out.println("A primeira nota: " +n1);
         System.out.println("A segunda nota: " +n2);
