@@ -14,6 +14,9 @@ public class NotasBim {
         n1 = input.nextFloat();
         System.out.println("A primeira nota e:" +n1);
         System.out.println("Digite a segunda nota:");
+        n2 = input.nextFloat();
+        System.out.println("A primeira nota: " +n1);
+        System.out.println("A segunda nota: " +n2);
 
 
     }
