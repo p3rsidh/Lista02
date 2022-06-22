@@ -27,6 +27,12 @@ public class CalcSalar {
             salarioh = salariot / horast;
             System.out.println("O salario por hora e de: " +salarioh);
 
+            System.out.println("Quantas horas trabalhou neste mes?");
+            horas = input.nextFloat();
+            salariom = salarioh * horas;
+            System.out.println("Neste mes voce recebera " +salariom +"reais");
+        } else {
+            System.out.println("valor nao aceito");
         }
 
     }
